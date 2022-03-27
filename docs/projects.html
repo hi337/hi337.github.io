@@ -9,38 +9,76 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- carousel-css -->
     <link rel="stylesheet" href="./css/carousel-css.css">
-    <title>hi337 Developer Website</title>
+    <!-- Font Awesome 4 -->
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+
+    <title>Rateb Ajamieh Developer Website</title>
   </head>
   <body>
     <!-- start of nav bar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">Rateb Ajamieh</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about_me.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about_me.html">Certifications</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact_me.html">Contact Me</a>
-            </li>
-          </ul>
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">Rateb Ajamieh</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-1">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about_me.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about_me.html">Certifications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact_me.html">Contact Me</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- end of nav bar -->
+      </nav>
+      <!-- end of nav bar -->
+
+      <main>
+        <div class="container pt-5 pl-5">
+          <h1 class="pb-3">My Projects</h1>
+          <div class="d-flex justify-content-evenly flex-wrap">
+            <div class="card" style="width: 18rem;">
+              <h6 class="card-header text-center">Active</h6>
+              <img class="card-img-top" src="./img/home_programming_picture.jpg" />
+              <div class="card-body">
+                <h5 class="card-title">hi337.github.io</h5>
+                <p class="card-text">The website you're currently on, built on Github Pages with Bootstrap 5.</p>
+                <a class="btn btn-primary" href="https://github.com/hi337/hi337.github.io"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <h6 class="card-header text-center">Archived</h6>
+              <img class="card-img-top" src="./img/home_programming_picture.jpg" />
+              <div class="card-body">
+                <h5 class="card-title">Make-e-Me</h5>
+                <p class="card-text">My first big React Native Project. A mobile application for on-demand chefs.</p>
+                <a class="btn btn-primary" href="https://github.com/hi337/MakeeMe"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <h6 class="card-header text-center">Archived</h6>
+              <img class="card-img-top" src="./img/home_programming_picture.jpg" />
+              <div class="card-body">
+                <h5 class="card-title">REST-API</h5>
+                <p class="card-text">This was the rest api I made for Make-e-Me using the ExpressJs framework. It is my first crack at backend development.</p>
+                <a class="btn btn-primary" href="https://github.com/hi337/REST-API"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
 
   <!-- footer start -->
   <footer class="bd-footer py-5 mt-5 bg-light">
