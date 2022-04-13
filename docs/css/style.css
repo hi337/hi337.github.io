@@ -3,8 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
     color: #5a5a5a;
   }
   
@@ -24,7 +22,7 @@ body {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 45rem;
   }
   .carousel-item > img {
     position: absolute;
@@ -67,6 +65,29 @@ body {
     line-height: 1;
     /* rtl:remove */
     letter-spacing: -.05rem;
+  }
+
+  /* Top Of The Page 
+  ------------------------------------------------ */
+
+  .page-top {
+    padding-bottom: 22rem;
+  }
+
+  .page-top-subheader {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+  }
+
+  .page-top-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5rem
+  }
+
+  .page-top-text {
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1rem;
   }
   
   
